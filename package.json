@@ -1,0 +1,22 @@
+{
+  "name": "autopost",
+  "version": "1.0.0",
+  "description": "Esse é um bot que cria artigos automáticos para você de acordo com seu gosto!",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "discord.js": "^14.13.0",
+    "fs": "^0.0.1-security",
+    "quick.db": "^7.0.0-b22",
+    "rss-parser": "^3.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
